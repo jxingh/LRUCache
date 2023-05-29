@@ -55,7 +55,6 @@ int main(int argc, char **argv)
     end = clock();
     double time = double(end - start) / CLOCKS_PER_SEC;
     cout << "time = " << time << "s" << endl;
-    cout << "options per second = " << 144 * 9 / time << " ops" << endl;
     delete s;
     return 0;
 }
